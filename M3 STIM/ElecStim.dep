@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1346012725</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\common\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\system_efm32.c</file>
+      <file>$PROJ_DIR$\..\common\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\startup\iar\startup_efm32.s</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_adc.c</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_cmu.c</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_assert.c</file>
+      <file>$PROJ_DIR$\..\common\CMSIS\CM3\CoreSupport\core_cm3.c</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_dac.c</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_dma.c</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_emu.c</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_gpio.c</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_letimer.c</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_system.c</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_timer.c</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\src\efm32_usart.c</file>
+      <file>$PROJ_DIR$\..\common\nrf24l01p\hal_nrf.c</file>
+      <file>$PROJ_DIR$\..\common\nrf24l01p\hal_nrf.h</file>
+      <file>$PROJ_DIR$\..\common\nrf24l01p\hal_nrf_hw.c</file>
+      <file>$PROJ_DIR$\..\common\nrf24l01p\hal_nrf_hw.h</file>
+      <file>$PROJ_DIR$\..\common\nrf24l01p\hal_nrf_reg.h</file>
+      <file>$PROJ_DIR$\..\common\nrf24l01p\hardware.h</file>
+      <file>$PROJ_DIR$\..\common\nrf24l01p\nordic_common.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\prog_types.h</file>
+      <file>$PROJ_DIR$\radio.c</file>
+      <file>$PROJ_DIR$\radio.h</file>
+      <file>$PROJ_DIR$\stim.c</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\hal_nrf.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\hal_nrf.pbi</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_usart.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_system.pbi</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\efm32lib\src\efm32_cmu.c</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\system_efm32.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\efm32lib\src\efm32_assert.c</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\radio.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\efm32lib\src\efm32_emu.c</file>
+      <file>$PROJ_DIR$\..\blink.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\efm32lib\src\efm32_system.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\efm32lib\src\efm32_gpio.c</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\blink.o</file>
+      <file>$PROJ_DIR$\blink\Debug\List\blink.map</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\CM3\CoreSupport\core_cm3.c</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_letimer.pbi</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_letimer.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_letimer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\config\linker\EnergyMicro\EFM32G890F128.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_dac.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\radio.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_usart.pbi</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_usart.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Exe\ElecStim.bin</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_emu.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_cmu.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_emu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\startup\iar\startup_efm32.s</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_dac.pbi</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_adc.h</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_dac.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_adc.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_dma.o</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_chip.h</file>
+      <file>$PROJ_DIR$\..\..\..\drivers\leds.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\system_efm32.c</file>
+      <file>$PROJ_DIR$\..\common\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\efm32.h</file>
+      <file>$PROJ_DIR$\..\common\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\efm32g890f128.h</file>
+      <file>$PROJ_DIR$\..\common\CMSIS\CM3\CoreSupport\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_bitband.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\leds.pbi</file>
+      <file>$PROJ_DIR$\..\common\CMSIS\CM3\CoreSupport\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\common\CMSIS\CM3\CoreSupport\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_cmu.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\ElecStim.pbd</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_system.h</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_assert.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_dma.pbi</file>
+      <file>$PROJ_DIR$\..\common\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\system_efm32.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_adc.pbi</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\core_cm3.pbi</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_cmu.pbi</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_gpio.pbi</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_assert.pbi</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_emu.o</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_assert.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\system_efm32.pbi</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\core_cm3.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_gpio.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_system.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\startup_efm32.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\blink.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Exe\blink.out</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_timer.o</file>
+      <file>$PROJ_DIR$\..\common\efm32lib\inc\efm32_timer.h</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\efm32_timer.pbi</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\hal_nrf_hw.pbi</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\hal_nrf_hw.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\stim.o</file>
+      <file>$PROJ_DIR$\blink\Debug\Obj\stim.pbi</file>
+      <file>$PROJ_DIR$\stim.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 109 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\system_efm32.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 48 53 108 50 52 107 76 77 78 82 55 56 81 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 48 53 108 51 50 52 107 76 77 78 82 55 56 81 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\startup\iar\startup_efm32.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 49 76 77 78 65 48 53 108 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 49 76 77 78 65 48 53 108 51 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_cmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 77 78 65 48 53 108 50 52 107 82 55 56 81 88 64 49 79 86 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 77 78 65 48 53 108 51 50 52 107 82 55 56 81 88 64 49 79 86 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\CMSIS\CM3\CoreSupport\core_cm3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 48 53 108 50 52 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 48 53 108 51 50 52 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 49 76 77 78 65 48 53 108 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70 49 76 77 78 65 48 53 108 51 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 63 48 53 108 50 52 107 36 29 49 76 77 78 65 82 55 56 81 88 64 79 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 63 48 53 108 51 50 52 107 36 29 49 76 77 78 65 82 55 56 81 88 64 79 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_emu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 49 76 77 78 65 48 53 108 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 49 76 77 78 65 48 53 108 51 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 49 76 77 78 65 48 53 108 50 52 107 82 55 56 81 88 79 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31 49 76 77 78 65 48 53 108 51 50 52 107 82 55 56 81 88 79 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_letimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 49 76 77 78 65 48 53 108 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 49 76 77 78 65 48 53 108 51 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 77 78 65 48 53 108 50 52 107 82 55 56 81 88 85 49 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 77 78 65 48 53 108 51 50 52 107 82 55 56 81 88 85 49 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 49 76 77 78 65 48 53 108 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111 49 76 77 78 65 48 53 108 51 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\efm32lib\src\efm32_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 49 76 77 78 65 48 53 108 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28 49 76 77 78 65 48 53 108 51 50 52 107 82 55 56 81 88 64 79 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\nrf24l01p\hal_nrf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 48 53 108 50 52 107 49 20 15 18 17 76 77 78 82 55 56 81 88 31 79 86 28 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 48 53 108 51 50 52 107 49 20 15 18 17 76 77 78 82 55 56 81 88 31 79 86 28 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\nrf24l01p\hal_nrf_hw.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 48 53 108 50 52 107 15 49 18 17 76 77 78 82 55 56 81 88 31 79 86 28 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 48 53 108 51 50 52 107 15 49 18 17 76 77 78 82 55 56 81 88 31 79 86 28 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 48 53 108 50 52 107 49 63 36 29 76 77 78 82 55 56 81 88 64 79 62 73 85 70 111 46 31 86 117 22 24 28 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 48 53 108 51 50 52 107 49 63 36 29 76 77 78 82 55 56 81 88 64 79 62 73 85 70 111 46 31 86 117 22 24 28 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\radio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 65 48 53 108 50 52 107 31 49 76 77 78 82 55 56 81 88 79 86 28 19 64 15 18 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 65 48 53 108 51 50 52 107 31 49 76 77 78 82 55 56 81 88 79 86 28 19 64 15 18 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117 65 48 53 108 50 52 107 22 49 64 76 77 78 82 55 56 81 88 79 111 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117 65 48 53 108 51 50 52 107 22 49 64 76 77 78 82 55 56 81 88 79 111 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\efm32lib\src\efm32_cmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\efm32lib\src\efm32_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\efm32lib\src\efm32_emu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\blink.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\efm32lib\src\efm32_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\efm32lib\src\efm32_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\CMSIS\CM3\CoreSupport\core_cm3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\startup\iar\startup_efm32.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\drivers\leds.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\CMSIS\CM3\DeviceSupport\EnergyMicro\EFM32\system_efm32.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\blink\Debug\Obj\ElecStim.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 90 89 93 91 68 87 66 92 45 30 112 59 27 113 102 35 116 97</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\blink\Debug\Exe\blink.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 54 98 71 96 83 57 72 94 99 47 100 110 60 26 114 101 58 103 115 33 106 95 105</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
